@@ -52,9 +52,6 @@ mysqli_close($conn);
     </thead>
     <tbody>
       <tr>
-	<?php
-	      while($Result = mysqli_fetch_array($res))
-	?>
         <td><?php echo $Result['Name'];?></div></td>
         <td>Doe</td>
         <td>john@example.com</td>
