@@ -41,9 +41,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<div class="container">
-  <h2>Basic Table</h2>
-  <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+<div class="container">          
   <table class="table">
     <thead>
       <tr>
