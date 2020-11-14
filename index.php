@@ -40,5 +40,6 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
+<a href="https://www.youtube.com/" class="btn btn-info" role="button">Link Button</a>
 </body>
 </html>
